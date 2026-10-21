@@ -1,0 +1,102 @@
+body{
+    background-color: #B9DFFB;
+}
+#heading{
+    text-align: center;
+    margin-top: 20px;
+}
+.container{
+    border-radius: 25px;
+    background-color: #E3F2FD;
+    height: 85vh;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.12);
+    position: relative;
+}
+
+.card1{
+    position: absolute;
+    height: 160px;
+    min-width: 300px;
+    margin-top: 10px;
+    top: 15px;
+    left: 30px;
+    background-color: #EEF6FF;
+}
+.btnAdd{
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 0;
+}
+.input{
+    border-radius: 5px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.12);
+    border: none;
+}
+
+.card2{
+    background-color: #EEF6FF;
+    min-width: 300px;
+    min-height: 200px;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.12);
+
+}
+.restBtn{
+    position: absolute;
+    min-width: 300px;
+    top: 450px;
+    left: 30px;
+    border: none;
+    background-color: #DC3545;
+    color: white;
+    text-align: center;
+    padding: 2px 0;
+    border-radius: 5px;
+}
+
+.card3{
+    position: absolute;
+    width: 60vw;
+    right: 30px;
+    top: 25px;
+    min-height: 75vh;
+    background-color: #F1F8FE;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.boxes{
+    display: flex;
+    gap: 200px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
+
+.divider{
+    background-color: black;
+    height: 1px;
+    width: 100%;
+    opacity: 10%;
+}
+.middle{
+    display: flex;
+    gap: 180px;
+}
+
+#historyList li {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 8px 0;
+}
+.deleteBtn{
+    border: none;
+    background-color: #DC3545;
+    color:white;
+    width: 80px;
+    padding: 4px 0;
+
+}
